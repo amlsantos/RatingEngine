@@ -23,24 +23,9 @@ namespace UI
             engine.Rate();
 
             if (engine.Rating > 0)
-            {
                 logger.Log($"Rating: {engine.Rating}");
-            }
             else
-            {
                 logger.Log("No rating produced.");
-            }
-        }
-
-        private static Policy GetFloodPolicy()
-        {
-            return new Policy()
-            {
-                Type = PolicyType.Flood,
-                BondAmount = 1000000,
-                Valuation = 1100000,
-                ElevationAboveSeaLevelFeet = 1001
-            };
         }
 
         private static Policy GetAutoPolicy()
@@ -53,6 +38,15 @@ namespace UI
             };
         }
 
-
+        private static Policy GetFloodPolicy()
+        {
+            return new Policy()
+            {
+                Type = PolicyType.Flood,
+                BondAmount = 1000000,
+                Valuation = 1100000,
+                ElevationAboveSeaLevelFeet = 1001
+            };
+        }
     }
 }

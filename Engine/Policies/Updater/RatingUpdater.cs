@@ -1,4 +1,6 @@
-﻿namespace Engine.Policies.Updater
+﻿using Engine.Core;
+
+namespace Engine.Policies.Updater
 {
     public class RatingUpdater : IRatingUpdater
     {
