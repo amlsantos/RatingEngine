@@ -1,3 +1,6 @@
+![build](https://github.com/santos-an/RatingEngine/actions/workflows/build.yml/badge.svg)
+![test](https://github.com/santos-an/RatingEngine/actions/workflows/test.yml/badge.svg)
+
 # Rating Engine - SOLID Principles for C# Developers
 
 A sample application used to demonstrate SOLID principles for the Pluralsight course, [SOLID Principles for C# Developers](https://www.pluralsight.com/courses/csharp-solid-principles).
